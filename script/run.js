@@ -7,10 +7,10 @@ n$('')// returns window (or given scope) as an n$
     }
 })
 .n$e({ // extends the dango namespace with a single member
-        'runmeagain': function () {
-            alert("Hello Again World!");
-        }
-    })
+    'runmeagain': function () {
+        alert("Hello Again World!");
+    }
+})
 .n$provide( // provides the namespace as a parameter to a function and executes it
     function (d) {
         with (d) {
